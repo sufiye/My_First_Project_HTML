@@ -1,0 +1,215 @@
+nav{
+    grid-area: nav;
+}
+#container1{
+    display: flex;
+    height: 30px;
+    width: auto;
+    & .div11{
+        margin-left: 60px;
+        width: 100px;
+        color: rgb(6, 37, 92);
+    }
+    & div{
+        height: 30px;
+        width:160px;
+        margin-top: 10px;
+        /* border: solid black 2px; */
+       column-gap: 0px;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: small;
+    }
+    & a{
+        text-decoration: none;
+        color: black;
+    }
+}
+#xett{
+    height: 0px;
+    width: auto;
+    border: solid rgb(198, 198, 198) 1px;
+}
+#xett2{
+    border: solid  rgb(6, 37, 92) 1px;
+    width: 68px;
+    margin-left: 59px;
+}
+
+#date{
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#button3{
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+    & button{
+
+    background-color: rgb(6, 37, 92);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    margin-top: 23px;
+    height: 25px;
+    width: 92px;
+    text-align: center;
+
+
+}
+}
+#buttons{
+    margin-left: 60px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 2px;
+    text-align: center; 
+    color: white;
+    margin-right: 8px;
+
+  & div{
+    border: solid rgb(6, 37, 92) 2px;
+    height: 30px;
+    padding-top: 15px; 
+    background-color: rgb(6, 37, 92);
+    border-radius: 3px;
+    
+  }
+  & #firstdiv{
+    color: rgb(6, 37, 92);
+    background-color: white;
+  }
+  /* & #firstdiv:hover{
+    color: white;
+    background-color: rgb(6, 37, 92);
+  }
+  & div:hover{
+
+    color: rgb(6, 37, 92);
+    background-color: white;
+  } */
+
+}
+#second{
+    display: grid;
+    grid-template-columns: 1195px auto auto;
+    margin-top: 15px;
+    margin-left: 55px;
+    accent-color: rgb(6,37,92);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px ;
+    margin-bottom: 10px;
+}
+#button2{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    & button{ 
+
+        background-color: rgb(6, 37, 92);
+        color: white;
+        border-radius: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 5px;
+        height: 25px;
+        width: 110px;
+        text-align: center;
+    }
+  
+}
+.group{
+    margin-left: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+#group1{
+    display: grid;
+    grid-template-columns: 119px auto;
+}
+main{
+    grid-area: main;
+  
+}
+#studentcon{
+        display: grid;
+        grid-template-columns: 60px 300px auto auto auto 120px 120px 120px 200px 30px;
+        grid-template-rows: 40px auto auto auto auto auto 40px 40px auto auto ;
+        margin-top: 10px;
+        margin-left: 55px;
+        margin-right: 27px;
+        height: 400px;
+        width: 1430px;
+        & div{
+            display: flex;
+            align-items: center;
+            color: rgb(168, 168, 168);
+            padding-left: 5px;
+            border: solid rgb(172, 172, 172) 1px;
+            
+        }
+     & #black{
+        color:rgb(113, 113, 113);
+     }
+        & .first1{
+            background-color: rgb(237, 237, 237);
+            display: flex;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: small;
+            color: rgb(168, 168, 168);
+            padding-left: 5px;
+        }
+        & a{
+            background-image: url(userrrrr.png);
+            background-repeat: no-repeat;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            padding-left: 25px;
+        }
+     
+  
+}
+#dimond1{
+    display: flex;
+    
+    & div{
+        border: solid rgb(237, 237, 237) 1px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: medium;
+       
+    }
+}
+#dimond{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    padding-right: 6px;
+
+    & div{
+        border: solid white 1px;
+    }
+    
+}
+select{
+    
+    height: 40px;
+    width: 100px;
+    border: solid rgb(224, 224, 224) 2px;  
+    border-radius: 6px;
+    margin-left: 4px;
+    color: rgb(106, 106, 106);
+
+}
+.green{
+    accent-color: green;
+}
+.red{
+    accent-color: red;
+}
+.yellow{
+    accent-color: yellow;
+  
+}

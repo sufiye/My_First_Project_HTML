@@ -1,0 +1,106 @@
+body{
+    margin: 0px;
+}
+#login{
+    float: inline-start;
+    height: 740px;
+    width: 530px;
+    background-color: rgb(236, 237, 239);
+}
+#logo{
+    margin-top: 10px;
+    margin-left: 8px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(6, 37, 92);
+    font-size: larger;
+  
+}
+#az{
+    background-image: url(earth.png);
+    background-repeat: no-repeat;
+    float: inline-end;
+    margin-top: 680px;
+    margin-right: 8px;
+    padding-left: 20px;
+    & a{
+       text-decoration: none;
+        color: black;
+    }
+  
+    /* & img{
+        margin: 0px;
+       padding-right: 3px;
+       padding-bottom: 0px;
+    } */
+}
+#stepit{
+    float: inline-end;
+     margin-top: 230px;
+     margin-right: 280px;
+   & img{
+
+    height: 300px;
+}
+}
+button{
+  background-color: rgb(6, 37, 92);
+  border-radius: 6px;
+  border: rgb(65, 64, 64);
+  height: 35px;
+  width: 150px;
+  margin-left: 140px;
+ transition-property: backgroud-color;
+ color: white;
+}
+button:hover{
+    background-color: rgb(13, 53, 121);
+}
+
+#logologin{
+    margin-left: 165px;
+    font-family: Franklin, Gothic, Medium;
+    font-size: xx-large;
+    color: rgb(6, 37, 92);
+}
+#a{
+    width: 430px;
+    height: 35px;
+    border: solid 1px;
+    border-radius: 3px;
+}
+#b{
+    width: 430px;
+    height: 35px;
+    border: solid 1px;
+    border-radius: 3px;
+}
+#mail1{
+    margin-left: 30px;
+    display: block;
+
+}
+#password1{
+    margin-left: 30px;
+
+}
+#login12{
+    display: flex;
+    justify-content: center;
+    margin-top: 238px;
+  & li{
+    list-style: none;
+    margin-top: 20px;
+  } 
+}
+#forgat{
+    margin-top: 5px;
+    margin-left: 320px;
+    font-size: 17px;
+   & a{
+    color: gray;
+   }
+   & a:hover{
+    color: rgb(6, 37, 92);
+
+   }
+}

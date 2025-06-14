@@ -1,0 +1,147 @@
+body{
+    background: fixed;
+    margin: 0px;
+}
+#first{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "aside  nav " 
+    "aside  main "  ;
+}
+/* HEADER */
+
+header{
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    width:auto;
+    height: 45px;
+    border-bottom: solid 2px rgb(99, 97, 97);
+
+}
+.logo{
+    color:  rgb(6, 37, 92);
+    font-family:Arial, Helvetica, sans-serif ;
+    margin: 14px;
+    font-weight:bold;
+    font-size: 14px;
+}
+#info{
+    width:300px;
+    height: 30px;
+    /* border: solid 2px rgb(99, 97, 97); */
+    
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.a1{
+    height: 20px;
+    padding-top: 2px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 13px;
+    background-image: url(building.png);
+    background-repeat: no-repeat;
+    & a{
+        text-decoration: none;
+        color: black;
+    }
+    /* border: solid 2px rgb(99, 97, 97); */
+}
+.a2{
+    padding-left: 20px;
+    padding-top: 1px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 13px;
+    background-image: url(earth.png);
+    background-repeat: no-repeat;
+    & a{
+        text-decoration: none;
+        color: black;
+    }
+    /* border: solid 2px rgb(99, 97, 97); */
+}
+.a3{
+    width:29px;
+    height: 25px;
+    margin-left: 35px;
+    list-style-image:url(bell.png) ;
+    
+}
+.a4{
+    width:10px;
+    height: 25px;
+    list-style-image: url(user.png);
+}
+
+
+aside{
+    position: absolute;
+    grid-area: aside;
+    display:flex;
+    overflow: hidden;
+    margin-top: 46px;
+    white-space:nowrap;
+    background-color: white;
+    width: 40px;
+    height:860px;
+    border-right: solid 2px rgb(64, 63, 63);
+    transition-property: width ;
+    transition-duration: 1s;
+    & a{
+        text-decoration: none;
+        color: black;
+        transition-property:color ;
+    }
+
+    & a:hover{
+        color: rgb(6, 37, 92);
+        background-color: rgb(211, 211, 211);
+        border-radius: 3px;
+    }
+    & ul{
+        list-style: none;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 30px;
+        row-gap: 15px;
+        
+    }
+    transition-duration: 0.30s;
+}
+aside:hover{
+    width: 150px;
+
+    
+}
+#sidebar{
+        width: 150px;
+        height: 300px;
+        /* border: solid 2px gray; */
+ }
+.b1{
+    list-style-image:url(comment2.png);
+    transition-property: color;
+}
+.b2{
+    list-style-image:url(cedvel1.png) ;
+}
+.b3{
+    list-style-image: url(devamiyyet2.png);
+}
+.b4{
+    list-style-image: url(telebeler.png);
+}
+.b5{
+    list-style-image: url(tapsiriq1.png);
+}
+.b6{
+    list-style-image:url(imtahan.png);
+}

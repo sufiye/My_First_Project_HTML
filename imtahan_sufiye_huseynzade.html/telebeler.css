@@ -1,0 +1,482 @@
+
+
+      /* NAVIGATION */
+
+nav{
+    position: absolute;
+    grid-area: nav;
+    display: flex;
+    margin-left: 70px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    /* border: solid 2px gray; */
+}
+.search{
+    margin-top:25px ;
+    width:220px;
+    height: 30px;
+    color: rgb(161, 159, 159);
+    border: solid 2px gray;
+    border-radius: 5px;
+    
+    & ul{
+        list-style-image: url(search.png);
+        padding-left: 27px;
+        margin-top: 5px;
+}
+}
+select{
+    width: 194px;
+    height: 33px;
+    border: solid grey 2px;
+    border-radius: 5px;
+    margin-top: 9px;
+}
+    /* SIDE BAR */
+
+
+        /* MAIN CONTENT */
+main{
+    display: flex;
+    flex-wrap: wrap;
+     margin-left: 70px;
+     margin-top: 70px;
+     column-gap: 20px;
+     row-gap: 20px;
+ }
+                   /* birinci telebe */
+/* ------------------------------------------------------- */
+.student1{
+    width: 300px;
+    height: 370px;
+    border: solid 2px black;
+    border-radius: 25px;
+    & ul{
+        display: flex;
+        padding-left: 15px;
+        flex-direction: column;
+        row-gap: 25px;  
+    }
+
+    & .s1a {
+        padding-left: 45px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        background-image: url(sekil.png);
+        background-repeat: no-repeat;
+    }
+    & li{
+        padding-top: 9px;
+        
+    }
+
+    & .s5a{
+        padding-left: 20px;
+        padding-top: 0px;
+        background-image: url(user.png);
+        background-repeat: no-repeat;
+    }
+    & .s6a{
+        padding-left: 20px;
+        padding-top: 0px;
+        background-image: url(mail.png) ;
+        background-repeat: no-repeat;
+    }
+    & .s7a{
+        padding-left: 20px;
+        padding-top: 0px;
+        background-image:  url(telephone.png);
+        background-repeat: no-repeat;
+      
+    }
+ 
+    & #s1a1{
+        float: right;
+        width: 23px;
+        padding: 2px 2px 2px 5px;
+        margin-right: 20px;
+        background-color:  rgb(6, 37, 92);
+        border-radius: 4px;
+        color: white;
+       
+    }
+    & #s1a2{
+        float: right;
+        width: 39px;
+        padding: 2px 2px 2px 5px;
+        margin-right: 20px;
+        background-color:  rgb(6, 37, 92);
+        border-radius: 4px;
+        color: white;
+    }
+}
+                  /* ikinci telebe */
+/* -------------------------------------------------- */
+.student2{
+    width: 300px;
+    height: 370px;
+    border: solid 2px black;
+    border-radius: 25px;
+    & ul{
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 25px;  
+    }
+    & #s1b1{
+        float: right;
+        margin-right: 15px;
+        padding: 2px 5px 1px 5px;
+        background-color:  rgb(6, 37, 92);
+        border-radius: 4px;
+        color: white;
+       
+    }
+    & #s1b2{
+        float: right;
+        margin-right: 15px;
+        padding: 2px 2px 2px 4px;
+        background-color:  rgb(6, 37, 92);
+        border-radius: 4px;
+        color: white;
+    }
+    & .s1b {
+        padding-left: 45px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        background-image: url(user12.png);
+        background-repeat: no-repeat;
+    }
+    & li{
+        padding-top: 9px;
+        
+    }
+    & .s5b { 
+        padding-left: 20px;
+        padding-top: 0px;
+        background-image: url(user.png);
+        background-repeat: no-repeat;
+       
+
+    }
+    & .s6b{
+        padding-left: 20px;
+        padding-top: 0px;
+        background-image: url(mail.png) ;
+        background-repeat: no-repeat;
+        
+    }
+    & .s7b{
+        padding-left: 20px;
+        padding-top: 0px;
+        background-image:url(telephone.png);
+        background-repeat: no-repeat;
+    }
+}
+
+                  /* ucuncu telebe */
+/* ---------------------------------------------------------- */
+.student3{
+    width: 300px;
+    height: 370px;
+    border: solid 2px black;
+    border-radius: 25px;
+    & ul{
+        padding-left: 10px;
+        flex-direction: column;
+        row-gap: 25px;  
+    }
+    & #s1c1{
+        float: right;
+        margin-right: 15px;
+        padding: 2px 5px 1px 5px;
+        background-color: rgb(6, 37, 92);
+        border-radius: 4px;
+        color: white;
+       
+    }
+    & #s1c2{
+        float: right;
+        margin-right: 10px;
+        padding: 2px 2px 2px 4px;
+        background-color:  rgb(6, 37, 92);
+        border-radius: 4px;
+        color: white;
+    }
+    & .s1c {
+        padding-left: 45px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        background-image: url(boy.png);
+        background-repeat: no-repeat;
+    }
+    & li{
+        padding-top: 9px;
+        
+    }
+    & .s5c {
+        padding-left: 20px;
+        padding-top: 0px;
+        background-image: url(user.png);
+        background-repeat: no-repeat;
+
+    }
+    & .s6c{
+        padding-left: 20px;
+        padding-top: 0px;
+        background-image:url(mail.png) ;
+        background-repeat: no-repeat;
+     
+    }
+    & .s7c{
+        padding-left: 20px;
+        padding-top: 0px;
+        background-image: url(telephone.png);
+        background-repeat: no-repeat;
+    }
+}
+               /* dorduncu telebe */
+/* --------------------------------------------------- */
+.student4{
+    width: 300px;
+    height: 370px;
+    border: solid 2px black;
+    border-radius: 25px;
+    & ul{
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 25px;  
+    }
+    & #s1d1{
+        float: right;
+        margin-right: 15px;
+        padding: 2px 5px 1px 5px;
+        background-color:  rgb(6, 37, 92);
+        border-radius: 4px;
+        color: white;
+       
+    }
+    & #s1d2{
+        float: right;
+        margin-right: 15px;
+        padding: 2px 2px 2px 4px;
+        background-color: rgb(6, 37, 92);
+        border-radius: 4px;
+        color: white;
+    }
+    & .s1d {
+        padding-left: 45px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        background-image: url(woman.png);
+        background-repeat: no-repeat;
+    }
+    & li{
+        padding-top: 9px;
+        
+    }
+    & .s5d {
+        padding-left: 20px;
+        padding-top: 0px;
+        background-image: url(user.png);
+        background-repeat: no-repeat;
+
+    }
+    & .s6d{
+        padding-left: 20px;
+        padding-top: 0px;
+        background-image: url(mail.png) ;
+        background-repeat: no-repeat;
+    }
+    & .s7d{
+        padding-left: 20px;
+        padding-top: 0px;
+        background-image: url(telephone.png);
+        background-repeat: no-repeat;
+    }
+}
+                   /* besinci telebe */
+/* ---------------------------------------------------- */
+.student5{
+    width: 300px;
+    height: 370px;
+    border: solid 2px black;
+    border-radius: 25px;
+    & ul{
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 25px;  
+    }
+    & #s1e1{
+        float: right;
+        margin-right: 15px;
+        padding: 2px 5px 1px 5px;
+        background-color: rgb(6, 37, 92);
+        border-radius: 4px;
+        color: white;
+       
+    }
+    & #s1e2{
+        float: right;
+        margin-right: 15px;
+        padding: 2px 2px 2px 4px;
+        background-color: rgb(6, 37, 92);
+        border-radius: 4px;
+        color: white;
+    }
+    & .s1e {
+        padding-left: 45px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        background-image:url(userm.png);
+        background-repeat: no-repeat;
+    }
+    & li{
+        padding-top: 9px;
+        
+    }
+    & .s5e {
+        padding-left: 20px;
+        padding-top: 0px;
+        background-image:url(user.png);
+        background-repeat: no-repeat;
+
+    }
+    & .s6e{
+        padding-left: 20px;
+        padding-top: 0px;
+        background-image:url(mail.png) ;
+        background-repeat: no-repeat;
+    }
+    & .s7e{
+        padding-left: 20px;
+        padding-top: 0px;
+        background-image: url(telephone.png);
+        background-repeat: no-repeat;
+    }
+}
+                /* altinci telebe */
+/* -------------------------------------------------------- */
+.student6{
+    width: 300px;
+    height: 370px;
+    border: solid 2px black;
+    border-radius: 25px;
+    & ul{
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 25px;  
+    }
+    & #s1f1{
+        float: right;
+        margin-right: 15px;
+        padding: 2px 5px 1px 5px;
+        background-color:  rgb(6, 37, 92);
+        border-radius: 4px;
+        color: white;
+       
+    }
+    & #s1f2{
+        float: right;
+        margin-right: 15px;
+        padding: 2px 2px 2px 4px;
+        background-color:  rgb(6, 37, 92);
+        border-radius: 4px;
+        color: white;
+    }
+    & .s1f {
+        padding-left: 45px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        background-image:url(ruslan.png);
+        background-repeat: no-repeat;
+    }
+    & li{
+        padding-top: 9px;
+        
+    }
+    & .s5f {
+        padding-left: 20px;
+        padding-top: 0px;
+        background-image:url(user.png);
+        background-repeat: no-repeat; 
+
+    }
+    & .s6f{
+        padding-left: 20px;
+        padding-top: 0px;
+        background-image:url(mail.png) ;
+        background-repeat: no-repeat;
+    }
+    & .s7f{
+        padding-left: 20px;
+        padding-top: 0px;
+        background-image: url(telephone.png);
+        background-repeat: no-repeat;
+    }
+}
+                 /* yeddinci telebe  */
+/* ---------------------------------------------------------- */
+.student7{
+    width: 300px;
+    height: 370px;
+    border: solid 2px black;
+    border-radius: 25px;
+    & ul{
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 25px;  
+    }
+    & #s1g1{
+        float: right;
+        margin-right: 15px;
+        padding: 2px 5px 1px 5px;
+        background-color:  rgb(6, 37, 92);
+        border-radius: 4px;
+        color: white;
+       
+    }
+    & #s1g2{
+        float: right;
+        margin-right: 15px;
+        padding: 2px 2px 2px 4px;
+        background-color: rgb(6, 37, 92);
+        border-radius: 4px;
+        color: white;
+    }
+    & .s1g {
+        padding-left: 45px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        background-image:url(user13.png);
+        background-repeat: no-repeat;
+    }
+    & li{
+        padding-top: 9px;
+        
+    }
+    & .s5g {
+        padding-left: 20px;
+        padding-top: 0px;
+        background-image: url(user.png);
+        background-repeat: no-repeat;
+
+    }
+    & .s6g{
+        padding-left: 20px;
+        padding-top: 0px;
+        background-image:url(mail.png) ;
+        background-repeat: no-repeat;
+    }
+    & .s7g{
+        padding-left: 20px;
+        padding-top: 0px;
+        background-image: url(telephone.png);
+        background-repeat: no-repeat;
+    }
+}
+

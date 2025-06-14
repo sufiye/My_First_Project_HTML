@@ -1,0 +1,153 @@
+nav{
+    grid-area: nav;
+}
+#container{
+    display: flex;
+    height: 20px;
+    width: auto;
+    & .div1{
+        margin-left: 45px;
+        width: 100px;
+    }
+  & #div2{
+    color: rgb(6, 37, 92);
+  }
+    & div{
+        height: 30px;
+        width:160px;
+        margin-top: 3px;
+        /* border: solid black 2px; */
+       column-gap: 0px;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: small;
+    }
+}
+#xett{
+    height: 0px;
+    width: 1500px;
+    border: solid rgb(198, 198, 198) 1px;
+}
+#xett2{
+    border: solid  rgb(6, 37, 92) 1px;
+    width: 149px;
+    margin-left: 135px;
+}
+.radiodecor{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+#c1{
+    margin-left: 45px;
+}
+#c2{
+    accent-color: rgb(6,37,92);
+
+}
+#c3{
+    accent-color:white;
+}
+#c5{
+    accent-color: red;
+}
+#c6{
+    accent-color: yellow;
+}
+
+#select{
+    margin-left: 55px;
+    margin-top: 10px;
+    & #group{
+        height: 30px;
+        width: 180px;
+        border: solid rgb(160, 159, 159) 1px;
+        border-radius: 4px;
+        color: rgb(74, 74, 74);
+    }
+    & #lesson{
+        height: 30px;
+        width: 180px;
+        border: solid rgb(160, 159, 159) 1px;
+        border-radius: 4px;
+        color: rgb(74, 74, 74);
+        margin-left: 5px;
+    }
+    & #date{
+        height: 30px;
+        width: 180px;
+        border: solid rgb(160, 159, 159) 1px;
+        border-radius: 4px;
+        color: rgb(74, 74, 74);
+        margin-left: 5px;
+    }
+    & #homework{
+        height: 30px;
+        width: 180px;
+        border: solid rgb(160, 159, 159) 1px;
+        border-radius: 4px;
+        color: rgb(74, 74, 74);
+        margin-left: 5px;
+    }
+    & .checkbox1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small
+        
+    }
+
+
+}
+main{
+    grid-area: main;
+
+
+}
+#container12{
+    display: grid;
+    grid-template-columns: 600px auto auto auto auto;
+    grid-template-rows: 55px auto auto auto auto;
+    height: 300x;
+    width: 1440px;
+    border: solid rgb(219, 219, 219) 1px;
+    margin-left: 55px;
+    margin-right: 10px;
+    margin-top: 70px;
+    
+    & div{
+        font-weight: bold;
+        border: solid rgb(219, 219, 219) 1px;
+        border-radius: 2px;
+    }
+    & .header1{
+        background-color: rgb(231, 232, 232);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+        color: rgb(165, 165, 165);
+        font-weight: normal;
+        text-align: center;
+    }
+    & #student{
+        display: flex;
+        align-items: center;
+        padding-left: 7px;
+    }
+   & #poin{
+    height: 43px;
+    width: 210px;
+    color: rgb(6, 37, 92);
+    border: white;
+    
+   }
+   & #name{
+        
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: normal;
+        font-size: small;
+   }
+}
+
+
+
+
+
